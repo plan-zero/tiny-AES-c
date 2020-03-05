@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 2.8.12)
 
 project(tinyaes C ASM)
 
-add_library(tiny-aes
+avr_add_library(tiny-aes
         aes.c
         )
 
